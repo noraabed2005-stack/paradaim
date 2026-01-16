@@ -1,6 +1,6 @@
 <?php
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/sale.php');
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/employee.php');
+require_once(dirname(__FILE__) . '/sale.php');
+require_once(dirname(__FILE__) . '/employee.php');
 
 /**
  * @access public
@@ -29,7 +29,7 @@ class user {
 
 	/**
 	 * @access public
-	 * @param aUsername
+	 * @param string $aUsername
 	 * @return void
 	 * 
 	 * @ReturnType void
@@ -47,7 +47,7 @@ class user {
 
 	/**
 	 * @access public
-	 * @param aPassword
+	 * @param string $aPassword
 	 * @return void
 	 * 
 	 * @ReturnType void
@@ -65,7 +65,7 @@ class user {
 
 	/**
 	 * @access public
-	 * @param aEmail
+	 * @param string $aEmail
 	 * @return void
 	 * 
 	 * @ReturnType void

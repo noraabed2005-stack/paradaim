@@ -1,5 +1,5 @@
 <?php
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/sale.php');
+require_once(dirname(__FILE__) . '/sale.php');
 
 /**
  * @access public
@@ -24,7 +24,7 @@ class book {
 
 	/**
 	 * @access public
-	 * @param aBook ID
+	 * @param int $aBook_ID
 	 * @return void
 	 * 
 	 * @ReturnType void
@@ -42,7 +42,7 @@ class book {
 
 	/**
 	 * @access public
-	 * @param aTitle
+	 * @param string $aTitle
 	 * @return void
 	 * 
 	 * @ReturnType void
@@ -60,7 +60,7 @@ class book {
 
 	/**
 	 * @access public
-	 * @param aPrice
+	 * @param float $aPrice
 	 * @return void
 	 * 
 	 * @ReturnType void

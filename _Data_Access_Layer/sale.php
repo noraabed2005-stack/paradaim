@@ -1,7 +1,7 @@
 <?php
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/employee.php');
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/user.php');
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/book.php');
+require_once(dirname(__FILE__) . '/employee.php');
+require_once(dirname(__FILE__) . '/user.php');
+require_once(dirname(__FILE__) . '/book.php');
 
 /**
  * @access public

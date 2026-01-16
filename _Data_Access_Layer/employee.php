@@ -1,6 +1,6 @@
 <?php
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/sale.php');
-require_once(realpath(dirname(__FILE__)) . '/../../for_Bookshop/_Data_Access_Layer/user.php');
+require_once(dirname(__FILE__) . '/sale.php');
+require_once(dirname(__FILE__) . '/user.php');
 
 /**
  * @access public
